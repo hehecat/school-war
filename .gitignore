@@ -1,0 +1,7 @@
+node_modules/
+dist/
+test-results/
+.tmp/
+*.log
+.DS_Store
+test-controls-*.png

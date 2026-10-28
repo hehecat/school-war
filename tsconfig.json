@@ -1,0 +1,1 @@
+{"compilerOptions":{"target":"ES2022","useDefineForClassFields":true,"module":"ESNext","lib":["ES2022","DOM"],"moduleResolution":"bundler","strict":true,"allowImportingTsExtensions":true,"noEmit":true,"skipLibCheck":true},"include":["src/core.ts","src/main.ts","src/scene.ts","src/vite-env.d.ts","src/net.ts","server.ts","server.test.ts"]}
