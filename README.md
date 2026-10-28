@@ -26,6 +26,11 @@ PORT=5175 NODE_ENV=production npx tsx server.ts
 - **目标**：8 分钟内占格最多者胜；也可以直接占领 60% 校园速胜。
 - **社团**：紫（武斗派）/ 黄（体育生）/ 绿（人海）/ 黑（学生会），各有被动与自动施放的社团技能。
 
+## 设计文档
+
+游戏设计文档在 [docs/校园战争重制版_GDD_v0.3.md](docs/校园战争重制版_GDD_v0.3.md)（v0.3 二轮审核修订版）。
+本 MVP 按该文档实现主教学区与 9 张地图；文档中标注 `[PLACEHOLDER]` 的数值在实测后按可玩性调整过（例如单格出兵速率 0.5 → 0.1 兵/秒/格）。
+
 ## 目录
 
 | 路径 | 说明 |
@@ -35,6 +40,7 @@ PORT=5175 NODE_ENV=production npx tsx server.ts
 | `src/scene.ts` | Three.js 沙盘渲染与鼠标/触摸交互 |
 | `src/main.ts` | 界面、面板、开局流程、联机大厅 |
 | `src/net.ts` / `server.ts` | WebSocket 客户端与权威服务端（房间码、20Hz 同步、断线重连） |
+| `docs/` | 游戏设计文档（GDD） |
 | `src/*.test.ts` | 33 项测试 |
 
 ## 状态
